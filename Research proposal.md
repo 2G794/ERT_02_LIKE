@@ -44,6 +44,12 @@ Geographical locations will be identified using inventor and applicant addresses
 
 Technological fields will be identified using International Patent Classification (IPC) codes. Regional technological specialization will be examined by comparing patent counts and shares across different IPC categories.
 
+The existing dataset already contains patent identifiers, inventor and applicant names, application and publication dates, and IPC classifications. However, geographical information is incomplete or inconsistent for some patents. Inventor and applicant locations will therefore be recovered from searchable patent texts and, where necessary, original scanned documents.
+
+The recovered locations will be used to study the geographical distribution of patenting activity and possible collaboration between regions. Application dates will be used to examine changes in patenting activity over time, while IPC codes will be used to compare technological specialization across regions. Patent identifiers will help identify unique patents and check for duplicate records.
+
+The availability of additional information, such as patent renewals and forward citations, will also be examined to assess whether patent quality can be studied.
+
 ### VI. Data and Methodology
 
 The main data source is the GDR patent dataset provided by GESIS, supplemented by original patent PDFs and searchable patent texts.
