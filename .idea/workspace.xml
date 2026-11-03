@@ -1,32 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37a816d3-4e46-44df-a39f-cb0fc87f8b16" name="更改" comment="🐛 bug: PDF retrieval requires CAPTCHA verification">
-      <change beforePath="$PROJECT_DIR$/.idea/Proj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Proj.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="37a816d3-4e46-44df-a39f-cb0fc87f8b16" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Data Reconstruction and Standardization/01_audit_patent_csv_enhanced.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GIS/02.qgz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/01_audit_patent_csv.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DDR Patente_Regionaldaten GESIS_final_cleaned.report.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Microsoft.Services.Store.winmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/clean_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/ddr_patent_ocr_test_based.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/ocr_output/001.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/ocr_output/DD000000000001A1_all_pages.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/ocr_output/DEPATISnet _ Dokument DD000000000001A1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/ocr_output/progress.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/test_pdf_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R/.Rprofile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R/ERT.Rproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R/README.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R/Untitled.qmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R/renv/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/R/renv/activate.R" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,20 +32,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.01_audit_patent_csv.executor": "Run",
-    "Python.01_audit_patent_csv_enhanced.executor": "Run",
-    "Python.test_textpdf_connection.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/HLK-DE-2025/S5/Empirical ResearchTask/Proj",
-    "settings.editor.selected.configurable": "terminal"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.01_audit_patent_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_audit_patent_csv_enhanced.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_textpdf_connection.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/HLK-DE-2025/S5/Empirical ResearchTask/Proj&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\HLK-DE-2025\S5\Empirical ResearchTask\ERT_02_LIKE\1_Data Reconstruction and Standardization" />
@@ -136,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793659264424</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="🐛 bug: PDF retrieval requires CAPTCHA verification">
+      <option name="closed" value="true" />
+      <created>1793666424326</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1793666424326</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">

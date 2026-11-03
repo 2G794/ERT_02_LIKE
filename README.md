@@ -2,7 +2,7 @@
 
 #### Author: Like He
 
-#### Supervisor：Marta Bernardi                                 
+#### Supervisor：Marta Bernardi
 
 #### Start Date:27.10.2026
 
