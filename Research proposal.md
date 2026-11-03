@@ -1,134 +1,65 @@
-# Where and when did the GDR invent?
+## Research Proposal
 
-### Author: Like He
+### I. Introduction
 
-#### Supervisor：Marta Bernardi   
+This project examines the geographical distribution of innovation in the German Democratic Republic (GDR) between 1950 and 1990 and how it changed over time.
 
-#### Start Date:27.10.2026
+The existing GDR patent dataset contains information on patent numbers, application dates, inventors, applicants, and technology classifications. However, some geographical information is missing or incomplete, which limits analysis at the regional level.
 
-## Preparation
+This project aims to recover and standardize geographical information from historical patent documents and combine it with the existing dataset to examine regional differences in patenting activity, technological specialization, and changes over time.
 
-#### Data Souce :
+### II. Research Questions and Main Variables
 
-#### Target :
+The project focuses on three main research questions:
 
-|  |  |  |  |  |
-|----------|-------------------|--------------|----------------|--------------|
-| **Milestone** | **Name** | **Deadline** | **Presentation mode** | **Check** |
-| 1 | Research proposal | 3.11. | in class (4.11.) |  |
-| 2 | Data set | 24.11. | bilaterally with supervisor |  |
-| 3 | Econometric approach | 8.12. | in class (9.12.) |  |
-| 4 | Results | 22.12. | bilaterally with supervisor |  |
-| 5 | Robustness | 19.01. | bilaterally with supervisor |  |
-| 6 | Presentation | 27.01. | in class (27.01.) |  |
+1.  Where was patenting activity concentrated in the GDR, and how did its geographical distribution change between 1950 and 1990?
 
-# Research Objectives and Progress Tracking
+2.  Did different regions specialize in different technological fields, and how did their technological profiles change over time?
 
-**Project:** Where and When Did the GDR Invent?
+3.  To what extent did inventors from different regions collaborate? (Potential extension)
 
-**Research Period:** 1950–1990
+The main indicators include the number of patents by region and year, the share of patents in different technological fields, and the proportion of patents involving inventors from multiple regions.
 
-**Overall Objective:** Construct a clean patent-level dataset to investigate the geographical and temporal distribution of innovation in the German Democratic Republic (GDR).
+### III. Literature Review
 
-## 1. Data Reconstruction and Standardization
+Hipp et al. (2024) introduced a comprehensive patent dataset for the GDR, providing a basis for studying innovation during this period.
 
-**Objective:** Recover, clean, and standardize patent information from the existing GESIS dataset and historical patent documents.
+Previous studies have also used patent information to examine technological development and knowledge transfer in the GDR. For example, Hipp, Jindra, and Medase (2024) studied patenting activity, technology transfer, and industrial productivity in the GDR. Glitz and Meyersson (2020) examined how technological information obtained through industrial espionage affected productivity in East Germany.
 
-| Planned Steps                                  | Status      |
-|------------------------------------------------|-------------|
-| 1.1 Audit patent identifiers and duplicates    | Started     |
-| 1.2 Examine missing values and inconsistencies | Not started |
-| 1.3 Validate application and publication dates | Not started |
-| 1.4 Extract inventor and applicant information | Not started |
-| 1.5 Compare extracted text with original PDFs  | Not started |
-| 1.6 Standardize names and addresses            | Not started |
-| 1.7 Construct the cleaned dataset              | Not started |
+These studies show the importance of patents and technological knowledge for understanding the GDR economy. Building on the existing dataset, this project focuses on improving geographical information and examining regional differences in innovation.
 
-**Issues and Decisions:**
+### IV. Proposed Analysis
 
-1.1:
+The project mainly uses exploratory and descriptive analysis and does not aim to establish causal relationships.
 
-- Issues identified: To be documented.
+The analysis will compare patenting activity and technological composition across regions and examine how these patterns changed over time.
 
-- Cleaning rules applied: To be documented.
+If sufficient information on inventor addresses is available, the project may also examine collaboration between inventors from different regions.
 
-- Remaining problems: To be documented.
+### V. Variables and Measurement
 
-**Expected Outcome:** A reproducible patent dataset containing standardized information on inventors, applicants, dates, and locations, with documented data-quality improvements.
+Patenting activity will be measured by the number of patents. The application date will be used as the main time variable, while complete application and publication dates will be retained.
 
-## 2. Spatial and Temporal Distribution of Innovation
+Geographical locations will be identified using inventor and applicant addresses and matched to a consistent set of municipalities (Gemeinden) and historical GDR districts (Bezirke).
 
-**Objective:** Investigate the geographical distribution of innovation in the GDR and how it changed over time.
+Technological fields will be identified using International Patent Classification (IPC) codes. Regional technological specialization will be examined by comparing patent counts and shares across different IPC categories.
 
-| Planned Steps                                     | Status      |
-|---------------------------------------------------|-------------|
-| 2.1 Match locations to present-day municipalities | Not started |
-| 2.2 Assign historical GDR districts (Bezirke)     | Not started |
-| 2.3 Validate 1989–1990 municipality codes         | Not started |
-| 2.4 Aggregate patents by year and decade          | Not started |
-| 2.5 Produce geographical visualizations           | Not started |
-| 2.6 Evaluate geographical data coverage           | Not started |
+### VI. Data and Methodology
 
-**Issues and Decisions:**
+The main data source is the GDR patent dataset provided by GESIS, supplemented by original patent PDFs and searchable patent texts.
 
-- Historical boundary problems: To be documented.
+The first step is to examine the completeness of the existing data and check for duplicate records. Missing geographical information will then be extracted from patent documents. Place names will be standardized and matched to geographical units. The accuracy of the extracted information will be checked against a sample of original patent documents.
 
-- Location matching rules: To be documented.
+After data preparation, descriptive statistics, time-series charts, and maps will be used to examine the spatial and temporal distribution of patenting activity. The technological composition of different regions will also be compared.
 
-- Unresolved geographical assignments: To be documented.
+### VII. Research Contribution
 
-**Expected Outcome:** Maps and descriptive statistics illustrating the spatial and temporal patterns of innovation across GDR municipalities and districts.
+This project aims to improve the geographical information in the existing GDR patent dataset, allowing for more detailed analysis of innovation at the regional level.
 
-## 3. Regional Technological Specialization
+The results will provide an overview of regional differences in patenting activity, technological specialization, and changes over time. The improved dataset may also support future research on inventor collaboration, knowledge diffusion, and regional economic development.
 
-**Objective:** Examine differences in technological specialization across GDR regions using International Patent Classification (IPC) codes.
+### References
 
-| Planned Steps                                     | Status      |
-|---------------------------------------------------|-------------|
-| 3.1 Audit IPC classifications                     | Not started |
-| 3.2 Match IPC codes to technology descriptions    | Not started |
-| 3.3 Link IPC classifications to geographical data | Not started |
-| 3.4 Calculate regional technology shares          | Not started |
-| 3.5 Produce specialization charts and maps        | Not started |
+Hipp, A., et al. (2024). *Comprehensive Patent Data of the German Democratic Republic 1949–1990*. Jahrbücher für Nationalökonomie und Statistik, 244(1–2), 149–158.
 
-**Expected Outcome:** Regional technological profiles showing the concentration and evolution of different technological activities in the GDR.
-
-## 4. Interregional Inventor Collaboration (Potential Extension)
-
-**Objective:** Explore geographical collaboration between inventors from different municipalities or districts.
-
-| Planned Steps                                       | Status      |
-|-----------------------------------------------------|-------------|
-| 4.1 Identify patents with multiple inventors        | Not started |
-| 4.2 Extract and match individual inventor locations | Not started |
-| 4.3 Identify interregional collaborations           | Not started |
-| 4.4 Analyze collaboration networks                  | Not started |
-
-**Expected Outcome:** Descriptive evidence on the extent and development of interregional inventor collaboration, depending on data availability.
-
-## 5. Patent Quality Indicators (Feasibility Assessment)
-
-**Objective:** Assess whether patent renewals, modifications, and citations can be used as indicators of patent quality.
-
-| Planned Steps                                    | Status      |
-|--------------------------------------------------|-------------|
-| 5.1 Review patent quality literature             | Not started |
-| 5.2 Investigate renewal and legal-status records | Not started |
-| 5.3 Investigate forward citation information     | Not started |
-| 5.4 Evaluate data availability and coverage      | Not started |
-
-**Expected Outcome:** An assessment of whether additional patent-quality indicators can reliably be incorporated into the dataset.
-
-## Overall Progress Summary
-
-| Research Objective            | Progress    | Main Output                  |
-|-------------------------------|-------------|------------------------------|
-| Data Reconstruction           | Not started | Cleaned patent dataset       |
-| Spatial and Temporal Analysis | Not started | Maps and temporal statistics |
-| Technological Specialization  | Not started | Regional technology profiles |
-| Interregional Collaboration   | Not started | Collaboration indicators     |
-| Patent Quality Assessment     | Not started | Feasibility report           |
-
-**Last Updated:** To be updated.
-
-**Next Priority:** Audit the original GESIS dataset and document variable availability, missing information, and data quality.
+Hipp, A., Jindra, B., & Medase, K. (2024). *Overcoming barriers to technology transfer: empirical evidence from the German Democratic Republic*. The Journal of Technology Transfer, 49, 1787–1821.
