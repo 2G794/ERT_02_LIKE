@@ -1,0 +1,5 @@
+﻿metric,count,date_column,start_inclusive,end_inclusive
+input_rows,286478,anmeldedatum,1950-01-01,1990-10-02
+in_range_rows,281852,anmeldedatum,1950-01-01,1990-10-02
+outside_range_rows,4625,anmeldedatum,1950-01-01,1990-10-02
+missing_or_invalid_date_rows,1,anmeldedatum,1950-01-01,1990-10-02

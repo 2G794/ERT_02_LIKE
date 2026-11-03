@@ -1,0 +1,15 @@
+﻿variable,non_missing,missing,missing_pct,unique_values
+anmeldedatum,281852,0,0.0,11920
+veroeffentlichungsdatum,281852,0,0.0,3958
+ipchauptklasse,280543,1309,0.46,38841
+erfinder,281470,382,0.14,230941
+anmelderinhaber,281385,467,0.17,155085
+pdfurl,281453,399,0.14,281453
+recherchierbarertexturl,281852,0,0.0,281852
+gemeinde_1,13829,268023,95.09,436
+gemeinde_2,2889,278963,98.97,270
+gemeinde_3,636,281216,99.77,153
+gemeinde_4,71,281781,99.97,37
+gemeinde_5,50,281802,99.98,29
+gemeinde_6,6,281846,100.0,5
+gemeinde_7,1,281851,100.0,1

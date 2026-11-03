@@ -1,0 +1,13 @@
+﻿metric,count
+total_rows,281852
+distinct_non_missing_ids,281852
+rows_with_any_issue,399
+id_missing,0
+id_format_invalid,0
+id_duplicate,0
+pdfurl_missing,399
+pdfurl_docid_missing,0
+pdfurl_id_mismatch,0
+recherchierbarertexturl_missing,0
+recherchierbarertexturl_docid_missing,0
+recherchierbarertexturl_id_mismatch,0
